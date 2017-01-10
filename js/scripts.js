@@ -15,15 +15,23 @@ $(document).ready(function(){
     $(".init-show").slideDown();
   });
 
+  $("#vocab").click(function() {
+    $(".init-hidden").slideUp();
+    $(".init-show").slideDown();
+
+  });
+
   $("#def").click(function() {
     $(".init-hidden").slideDown();
     $(".init-show").slideUp();
 
   });
 
-  $("#vocab").click(function() {
-    $(".init-hidden").slideUp();
-    $(".init-show").slideDown();
+  $("#dark").click(function(){
+    $("body").addClass('bg-dark');
+  });
 
+  $("#light").click(function(){
+    $("body").removeClass();
   });
 });
