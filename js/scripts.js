@@ -13,17 +13,32 @@ $(document).ready(function(){
   $("#showall").click(function() {
     $(".init-hidden").slideDown();
     $(".init-show").slideDown();
+    $('.word').removeClass('bg-danger');
+    $('.word').removeClass('bg-warning');
+    $('.word').removeClass('bg-success');
+    $('.word').addClass('bg-info');
+
   });
 
   $("#vocab").click(function() {
     $(".init-hidden").slideUp();
     $(".init-show").slideDown();
+    $('.word').removeClass('bg-danger');
+    $('.word').removeClass('bg-info');
+    $('.word').removeClass('bg-success');
+    $('.word').addClass('bg-warning');
+
 
   });
 
   $("#def").click(function() {
     $(".init-hidden").slideDown();
     $(".init-show").slideUp();
+    $('.word').removeClass('bg-danger');
+    $('.word').removeClass('bg-warning');
+    $('.word').removeClass('bg-info');
+    $('.word').addClass('bg-success');
+
 
   });
 
