@@ -1,0 +1,16 @@
+.word {
+  border: solid 3px #9e2f2f;
+  background-color: #eaafaf;
+  height: 200px;
+  text-align: center;
+  margin-top: 3px;
+  font-size: 20px;
+}
+
+p {
+  padding: 10px;
+}
+
+.init-hidden {
+  display: none;
+}
