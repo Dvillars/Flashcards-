@@ -6,6 +6,10 @@
   border: 3px solid black;
 }
 
+.wee {
+  color: white;
+}
+
 body {
   text-shadow: 5px 3px 4px grey;
   background-color: white;
